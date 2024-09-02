@@ -20,7 +20,8 @@
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^8.0.1",
-    "release-it": "^17.6.0"
+    "release-it": "^17.6.0",
+    "release-it-pnpm": "^4.6.3"
   },
   "author": "Fernando Isidro <luffynando@gmail.com>",
   "license": "MIT",
@@ -58,6 +59,7 @@
       "skipChecks": true
     },
     "plugins": {
+      "release-it-pnpm": {},
       "@release-it/conventional-changelog": {
         "infile": "CHANGELOG.md",
         "header": "# @nodecfdi/tsconfig Changelog",
