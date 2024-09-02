@@ -16,12 +16,18 @@
     "./tsconfig.base.json": "./tsconfig.base.json"
   },
   "scripts": {
-    "release": "release-it"
+    "prepare": "is-in-ci || husky",
+    "changelog": "auto-changelog -p && git add CHANGELOG.md",
+    "release": "np",
+    "version": "pnpm run changelog"
   },
   "devDependencies": {
-    "@release-it/conventional-changelog": "^8.0.1",
-    "release-it": "^17.6.0",
-    "release-it-pnpm": "^4.6.3"
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
+    "auto-changelog": "^2.4.0",
+    "husky": "^9.1.5",
+    "is-in-ci": "^1.0.0",
+    "np": "^10.0.7"
   },
   "author": "Fernando Isidro <luffynando@gmail.com>",
   "license": "MIT",
@@ -38,36 +44,20 @@
     "typescript",
     "nodecfdi"
   ],
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "packageManager": "pnpm@9.9.0",
   "publishConfig": {
     "access": "public",
     "tag": "latest"
   },
-  "release-it": {
-    "git": {
-      "requireCleanWorkingDir": true,
-      "requireUpstream": true,
-      "commitMessage": "chore(release): :tada: ${version}",
-      "tagAnnotation": "v${version}",
-      "push": true,
-      "tagName": "v${version}"
-    },
-    "github": {
-      "release": true
-    },
-    "npm": {
-      "publish": true,
-      "skipChecks": true
-    },
-    "plugins": {
-      "release-it-pnpm": {},
-      "@release-it/conventional-changelog": {
-        "infile": "CHANGELOG.md",
-        "header": "# @nodecfdi/tsconfig Changelog",
-        "preset": {
-          "name": "conventionalcommits"
-        }
-      }
-    }
+  "np": {
+    "message": "chore(release): :tada: %s",
+    "tag": "latest",
+    "branch": "main",
+    "yolo": true
   }
 }
