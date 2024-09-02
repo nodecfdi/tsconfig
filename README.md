@@ -86,9 +86,8 @@ The `@nodecfdi/tsconfig` library is copyright © [NodeCfdi](https://github.com/n
 [release]: https://www.npmjs.com/package/@nodecfdi/tsconfig
 [license]: https://github.com/nodecfdi/tsconfig/blob/main/LICENSE.md
 [downloads]: https://www.npmjs.com/package/@nodecfdi/tsconfig
-[badge-source]: https://img.shields.io/badge/source-nodecfdi/tsconfig-blue.svg?logo=github
-[badge-node-version]: https://img.shields.io/node/v/@nodecfdi/tsconfig.svg?logo=nodedotjs
+[badge-source]: https://img.shields.io/badge/source-nodecfdi/tsconfig-blue?logo=github
 [badge-discord]: https://img.shields.io/discord/459860554090283019?logo=discord
-[badge-release]: https://img.shields.io/npm/v/@nodecfdi/tsconfig.svg?logo=npm
-[badge-license]: https://img.shields.io/github/license/nodecfdi/tsconfig.svg?logo=open-source-initiative
-[badge-downloads]: https://img.shields.io/npm/dm/@nodecfdi/cfdi-to-pdf.svg?logo=npm
+[badge-release]: https://img.shields.io/npm/v/@nodecfdi/tsconfig?logo=npm
+[badge-license]: https://img.shields.io/github/license/nodecfdi/tsconfig?logo=open-source-initiative
+[badge-downloads]: https://img.shields.io/npm/dm/@nodecfdi/tsconfig?logo=npm
