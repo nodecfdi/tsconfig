@@ -40,7 +40,8 @@
   ],
   "packageManager": "pnpm@9.9.0",
   "publishConfig": {
-    "provenance": true
+    "access": "public",
+    "tag": "latest"
   },
   "release-it": {
     "git": {
