@@ -54,6 +54,10 @@
     "access": "public",
     "tag": "latest"
   },
+  "auto-changelog": {
+    "template": "keepachangelog",
+    "hideCredit": true
+  },
   "np": {
     "message": "chore(release): :tada: %s",
     "tag": "latest",
