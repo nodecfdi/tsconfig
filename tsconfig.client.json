@@ -3,6 +3,7 @@
   "compilerOptions": {
     "moduleResolution": "Bundler",
     "lib": ["DOM", "ESNext", "DOM.Iterable", "ES2020"],
+    "module": "ESNext",
     "types": ["vite/client"]
   }
 }
