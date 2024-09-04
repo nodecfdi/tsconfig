@@ -4,6 +4,7 @@
     "declaration": false,
     "sourceMap": true,
     "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
     "types": ["@types/node"]
   }
 }
