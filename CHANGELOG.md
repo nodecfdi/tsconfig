@@ -5,10 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [v1.7.1](https://luffynando.github.com/nodecfdi/tsconfig/compare/v1.7.0...v1.7.1)
+## [v1.7.2](https://luffynando.github.com/nodecfdi/tsconfig/compare/v1.7.1...v1.7.2)
 
 ### Commits
 
+- fix: :bug: resolve json modules in app its necessary for read package.json file [`ae94b5c`](https://luffynando.github.com/nodecfdi/tsconfig/commit/ae94b5c5eac3ce316851d59083adcc6a7b74acb4)
+
+## [v1.7.1](https://luffynando.github.com/nodecfdi/tsconfig/compare/v1.7.0...v1.7.1) - 2024-09-03
+
+### Commits
+
+- chore(release): :tada: 1.7.1 [`98354d0`](https://luffynando.github.com/nodecfdi/tsconfig/commit/98354d09bb13d093cd7edf341932877d8d4c7cad)
 - chore: :construction: update config for gitignore files and generate changelog [`d8d5faa`](https://luffynando.github.com/nodecfdi/tsconfig/commit/d8d5faaced3bd05deaabc8c71101237ac6b64b50)
 - fix: :bug: resolve problem with module resolution and module [`cff589f`](https://luffynando.github.com/nodecfdi/tsconfig/commit/cff589fcd0ed3bf1a6e2701dfc44714bdeaa10b8)
 
