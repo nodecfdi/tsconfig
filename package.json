@@ -7,12 +7,14 @@
     "tsconfig.app.json",
     "tsconfig.client.json",
     "tsconfig.package.json",
+    "tsconfig.pkg.json",
     "tsconfig.base.json"
   ],
   "exports": {
     "./tsconfig.app.json": "./tsconfig.app.json",
     "./tsconfig.client.json": "./tsconfig.client.json",
     "./tsconfig.package.json": "./tsconfig.package.json",
+    "./tsconfig.pkg.json": "./tsconfig.pkg.json",
     "./tsconfig.base.json": "./tsconfig.base.json"
   },
   "scripts": {
@@ -22,12 +24,12 @@
     "version": "pnpm run changelog"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-conventional": "^19.6.0",
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
     "auto-changelog": "^2.5.0",
     "husky": "^9.1.7",
     "is-in-ci": "^1.0.0",
-    "np": "^10.1.0"
+    "np": "^10.2.0"
   },
   "author": "Fernando Isidro <luffynando@gmail.com>",
   "license": "MIT",
@@ -49,7 +51,7 @@
       "@commitlint/config-conventional"
     ]
   },
-  "packageManager": "pnpm@9.15.1",
+  "packageManager": "pnpm@10.3.0",
   "publishConfig": {
     "access": "public",
     "tag": "latest"
