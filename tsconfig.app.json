@@ -6,5 +6,8 @@
     "emitDecoratorMetadata": true,
     "resolveJsonModule": true,
     "types": ["@types/node"]
+  },
+  "ts-node": {
+    "swc": true
   }
 }

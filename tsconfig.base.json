@@ -19,8 +19,5 @@
     "strictFunctionTypes": true,
     "noImplicitThis": true,
     "skipLibCheck": true
-  },
-  "ts-node": {
-    "swc": true
   }
 }
