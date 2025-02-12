@@ -5,11 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [v1.7.3](https://luffynando.github.com/nodecfdi/tsconfig/compare/v1.7.2...v1.7.3)
+## [v1.7.4](https://luffynando.github.com/nodecfdi/tsconfig/compare/v1.7.3...v1.7.4)
+
+### Commits
+
+- feat: :recycle: move tsnode section and update for usage with adonisjs packages [`083ef1e`](https://luffynando.github.com/nodecfdi/tsconfig/commit/083ef1e7cc9b7e992cff4d98965fb65aad898d6d)
+- chore: :arrow_up: update dependencies [`9ee50cb`](https://luffynando.github.com/nodecfdi/tsconfig/commit/9ee50cbe07252693cc0a74494ff73296db266284)
+- chore: :construction: update dependencies [`01b1d76`](https://luffynando.github.com/nodecfdi/tsconfig/commit/01b1d76a20ba8e7f177970ed6288df62e66970a8)
+
+## [v1.7.3](https://luffynando.github.com/nodecfdi/tsconfig/compare/v1.7.2...v1.7.3) - 2024-12-07
 
 ### Commits
 
 - chore: :arrow_up: update dependencies [`902e99e`](https://luffynando.github.com/nodecfdi/tsconfig/commit/902e99ec6d015eacceda96e089945f8c747d4ec5)
+- chore(release): :tada: 1.7.3 [`12bdfcf`](https://luffynando.github.com/nodecfdi/tsconfig/commit/12bdfcfd438fc5fd53f05e056039bcf958a16200)
 
 ## [v1.7.2](https://luffynando.github.com/nodecfdi/tsconfig/compare/v1.7.1...v1.7.2) - 2024-09-03
 
